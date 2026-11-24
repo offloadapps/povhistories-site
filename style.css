@@ -1,16 +1,17 @@
-/* POV Histories sources. Direction: exact, unhurried, scholarly. World: a university press
+/* POV Histories sources. Palette B, parchment and sepia (Jordan, 24 Nov 2026). Direction: exact, unhurried, scholarly. World: a university press
    monograph and an archive finding aid. Signature: the shelfmark line above each episode. */
 :root{
-  --paper:#F6F1E7;--paper-raised:#FBF8F1;--ink:#22201C;--ink-2:#55504A;--ink-3:#7D766D;
-  --rule:rgba(34,32,28,.14);--accent:#7A2E26;--accent-hover:#5C211B;
+  --paper:#EFE4CC;--paper-raised:#F5ECD9;--ink:#2E2620;--ink-2:#5A4D40;--ink-3:#736453;
+  --rule:rgba(46,38,32,.16);--accent:#8A4B1F;--accent-hover:#6B3815;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.25 0 0 0 0 0.2 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --measure:38rem;--ease:cubic-bezier(.2,.6,.2,1);
 }
 @media (prefers-color-scheme:dark){:root{
-  --paper:#1B1A17;--paper-raised:#22211D;--ink:#ECE6DA;--ink-2:#B8B0A3;--ink-3:#8E877C;
-  --rule:rgba(236,230,218,.14);--accent:#D9988C;--accent-hover:#ECB5AA;}}
+  --paper:#1F1A15;--paper-raised:#27211B;--ink:#EDE3CF;--ink-2:#BFB29C;--ink-3:#958A78;
+  --rule:rgba(237,227,207,.14);--accent:#D9A374;--accent-hover:#EBBE96;}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);
+body{margin:0;background:var(--paper) var(--grain);color:var(--ink);
   font:400 19px/1.6 "EB Garamond",Garamond,"Times New Roman",serif;font-feature-settings:"onum" 1,"kern" 1}
 main{max-width:calc(var(--measure) + 32px);margin:0 auto;padding:48px 16px 80px}
 a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px;transition:color .15s var(--ease)}
