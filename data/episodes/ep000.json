@@ -1,0 +1,16 @@
+{
+  "id": "EP000",
+  "example": true,
+  "title": "Example: the vatman's first sheet",
+  "era": "1790",
+  "place": "Kent, England",
+  "post_date": "2027-01-04",
+  "summary": "Placeholder episode to show the page layout. Replace with the research thread's real dossier.",
+  "sources": [
+    {"type": "academic", "citation": "Author, A. (Year). Book or article title. Publisher or journal.", "url": "https://example.org/"},
+    {"type": "first-person", "citation": "Name of diarist or worker, Title of diary, letter or memoir (Year).", "url": "https://example.org/"},
+    {"type": "archive", "citation": "Museum or archive name, object or record title, reference number.", "url": "https://example.org/"}
+  ],
+  "corrections": [],
+  "simplified": "One line on anything the video simplified, compressed or could not confirm."
+}

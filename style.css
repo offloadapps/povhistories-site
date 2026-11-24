@@ -1,0 +1,19 @@
+:root{--paper:#F3EAD7;--ink:#1E1B26;--quiet:#5B5466;--rule:#D9CCB0;--accent:#2F4A8A;--tag-a:#2F4A8A;--tag-p:#A4472F;--tag-m:#6B7A2E;}
+@media (prefers-color-scheme:dark){:root{--paper:#1E1B26;--ink:#F3EAD7;--quiet:#B9AFA0;--rule:#3A3445;--accent:#9DB4F0;--tag-a:#9DB4F0;--tag-p:#F0A88F;--tag-m:#C4D38A;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 Georgia,"Times New Roman",serif}
+main{max-width:680px;margin:0 auto;padding:32px 16px 64px}
+.brand{font-family:"Silkscreen",monospace;font-size:14px;letter-spacing:.04em;color:var(--quiet);text-decoration:none}
+h1{font-family:"Silkscreen",monospace;font-weight:400;font-size:26px;line-height:1.25;margin:16px 0 4px}
+.meta{color:var(--quiet);margin:0 0 24px}
+h2{font-family:"Silkscreen",monospace;font-weight:400;font-size:16px;margin:32px 0 8px;border-bottom:2px dotted var(--rule);padding-bottom:6px}
+ol.sources{padding-left:20px}
+ol.sources li{margin:0 0 14px}
+.tag{display:inline-block;font:12px/1 "Silkscreen",monospace;padding:4px 6px;border:1.5px solid currentColor;border-radius:2px;margin-right:6px;vertical-align:2px}
+.tag.academic{color:var(--tag-a)}.tag.first-person{color:var(--tag-p)}.tag.archive{color:var(--tag-m)}
+a{color:var(--accent)}
+.note{color:var(--quiet);font-size:15px}
+ul.episodes{list-style:none;padding:0}
+ul.episodes li{padding:12px 0;border-bottom:1px solid var(--rule)}
+ul.episodes .code{font-family:"Silkscreen",monospace;font-size:13px;color:var(--quiet);margin-right:8px}
+footer{margin-top:48px;color:var(--quiet);font-size:14px}
