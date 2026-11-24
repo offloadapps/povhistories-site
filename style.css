@@ -1,19 +1,37 @@
-:root{--paper:#F3EAD7;--ink:#1E1B26;--quiet:#5B5466;--rule:#D9CCB0;--accent:#2F4A8A;--tag-a:#2F4A8A;--tag-p:#A4472F;--tag-m:#6B7A2E;}
-@media (prefers-color-scheme:dark){:root{--paper:#1E1B26;--ink:#F3EAD7;--quiet:#B9AFA0;--rule:#3A3445;--accent:#9DB4F0;--tag-a:#9DB4F0;--tag-p:#F0A88F;--tag-m:#C4D38A;}}
+/* POV Histories sources. Direction: exact, unhurried, scholarly. World: a university press
+   monograph and an archive finding aid. Signature: the shelfmark line above each episode. */
+:root{
+  --paper:#F6F1E7;--paper-raised:#FBF8F1;--ink:#22201C;--ink-2:#55504A;--ink-3:#7D766D;
+  --rule:rgba(34,32,28,.14);--accent:#7A2E26;--accent-hover:#5C211B;
+  --measure:38rem;--ease:cubic-bezier(.2,.6,.2,1);
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#1B1A17;--paper-raised:#22211D;--ink:#ECE6DA;--ink-2:#B8B0A3;--ink-3:#8E877C;
+  --rule:rgba(236,230,218,.14);--accent:#D9988C;--accent-hover:#ECB5AA;}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 Georgia,"Times New Roman",serif}
-main{max-width:680px;margin:0 auto;padding:32px 16px 64px}
-.brand{font-family:"Silkscreen",monospace;font-size:14px;letter-spacing:.04em;color:var(--quiet);text-decoration:none}
-h1{font-family:"Silkscreen",monospace;font-weight:400;font-size:26px;line-height:1.25;margin:16px 0 4px}
-.meta{color:var(--quiet);margin:0 0 24px}
-h2{font-family:"Silkscreen",monospace;font-weight:400;font-size:16px;margin:32px 0 8px;border-bottom:2px dotted var(--rule);padding-bottom:6px}
-ol.sources{padding-left:20px}
-ol.sources li{margin:0 0 14px}
-.tag{display:inline-block;font:12px/1 "Silkscreen",monospace;padding:4px 6px;border:1.5px solid currentColor;border-radius:2px;margin-right:6px;vertical-align:2px}
-.tag.academic{color:var(--tag-a)}.tag.first-person{color:var(--tag-p)}.tag.archive{color:var(--tag-m)}
-a{color:var(--accent)}
-.note{color:var(--quiet);font-size:15px}
-ul.episodes{list-style:none;padding:0}
-ul.episodes li{padding:12px 0;border-bottom:1px solid var(--rule)}
-ul.episodes .code{font-family:"Silkscreen",monospace;font-size:13px;color:var(--quiet);margin-right:8px}
-footer{margin-top:48px;color:var(--quiet);font-size:14px}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font:400 19px/1.6 "EB Garamond",Garamond,"Times New Roman",serif;font-feature-settings:"onum" 1,"kern" 1}
+main{max-width:calc(var(--measure) + 32px);margin:0 auto;padding:48px 16px 80px}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px;transition:color .15s var(--ease)}
+a:hover{color:var(--accent-hover)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+  padding-bottom:12px;border-bottom:1px solid var(--rule);margin-bottom:40px}
+.wordmark{font-variant:small-caps;letter-spacing:.06em;font-size:20px;font-weight:500;color:var(--ink);text-decoration:none}
+.masthead .section{font-variant:small-caps;letter-spacing:.04em;color:var(--ink-3);font-size:17px}
+.shelfmark{font-variant:small-caps;letter-spacing:.05em;color:var(--ink-3);font-size:17px;margin:0 0 8px;font-variant-numeric:lining-nums tabular-nums}
+h1{font-weight:500;font-size:36px;line-height:1.15;margin:0 0 16px;letter-spacing:-.005em}
+.lede{color:var(--ink-2);margin:0 0 32px}
+h2{font-weight:500;font-size:22px;line-height:1.3;margin:40px 0 12px;padding-top:16px;border-top:1px solid var(--rule)}
+.bib{list-style:none;padding:0;margin:0}
+.bib li{padding-left:2em;text-indent:-2em;margin:0 0 12px}
+.bib .src{font-variant:small-caps;letter-spacing:.03em;font-size:17px;white-space:nowrap}
+.note{color:var(--ink-2)}
+.toc{list-style:none;padding:0;margin:0}
+.toc li{display:grid;grid-template-columns:5.5em 1fr;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--rule)}
+.toc .code{font-variant:small-caps;letter-spacing:.05em;color:var(--ink-3);font-variant-numeric:lining-nums tabular-nums}
+.toc .where{grid-column:2;color:var(--ink-3);font-size:17px}
+.empty{color:var(--ink-3);padding:12px 0;border-bottom:1px solid var(--rule)}
+footer{margin-top:64px;padding-top:16px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:16px}
+@media (max-width:520px){body{font-size:18px}h1{font-size:30px}.toc li{grid-template-columns:1fr}.toc .where{grid-column:1}}

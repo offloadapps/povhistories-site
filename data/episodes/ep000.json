@@ -1,16 +1,34 @@
 {
   "id": "EP000",
   "example": true,
-  "title": "Example: the vatman's first sheet",
-  "era": "1790",
-  "place": "Kent, England",
+  "series": "An Ordinary Day",
+  "title": "Example: a laundress on wash day",
+  "era": "1880",
+  "place": "Manchester",
   "post_date": "2027-01-04",
-  "summary": "Placeholder episode to show the page layout. Replace with the research thread's real dossier.",
+  "summary": "Placeholder to show the layout. The research thread's dossier replaces it.",
   "sources": [
-    {"type": "academic", "citation": "Author, A. (Year). Book or article title. Publisher or journal.", "url": "https://example.org/"},
-    {"type": "first-person", "citation": "Name of diarist or worker, Title of diary, letter or memoir (Year).", "url": "https://example.org/"},
-    {"type": "archive", "citation": "Museum or archive name, object or record title, reference number.", "url": "https://example.org/"}
+    {
+      "type": "first-person",
+      "citation": "Surname, First. Title of Diary or Memoir. Place: Publisher, Year.",
+      "url": "https://archive.org/"
+    },
+    {
+      "type": "academic",
+      "citation": "Surname, First. “Article Title.” Journal Name 12, no. 3 (Year): 45–67.",
+      "url": "https://www.jstor.org/"
+    },
+    {
+      "type": "archive",
+      "citation": "Museum Name. Object title, accession number.",
+      "url": "https://www.vam.ac.uk/"
+    }
   ],
-  "corrections": [],
+  "corrections": [
+    {
+      "date": "2027-01-10",
+      "text": "Example correction: the mangle was cast iron, not wood."
+    }
+  ],
   "simplified": "One line on anything the video simplified, compressed or could not confirm."
 }
