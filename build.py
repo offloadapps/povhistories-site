@@ -28,7 +28,7 @@ def page(title, desc, body, depth):
 <body><main>
 <header class="masthead"><a class="wordmark" href="{up}">POV Histories</a><span class="section">Sources and notes</span></header>
 {body}
-<footer>New episodes daily on <a href="https://www.instagram.com/povhistories/">Instagram</a> and <a href="https://www.tiktok.com/@povhistories4">TikTok</a>. Spotted an error? Comment on the video and we will check it.</footer>
+<footer>New episodes daily on <a href="https://www.instagram.com/povhistories/">Instagram</a>, <a href="https://www.tiktok.com/@povhistories4">TikTok</a> and <a href="https://www.youtube.com/@povhistories0">YouTube</a>. Spotted an error? Comment on the video and we will check it.</footer>
 </main></body></html>
 """
 
