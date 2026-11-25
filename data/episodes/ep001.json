@@ -8,7 +8,7 @@
   "summary": "Through one night, a keeper trims the kerosene lamp's wick, rewinds the weight-driven clockwork that turns the Fresnel lens, and records the night in the station's log.",
   "sources": [
     {
-      "type": "archive",
+      "type": "primary",
       "citation": "United States Light-House Board, Instructions to Light-Keepers (undated reprint, Light-House Board era 1852 to 1910), via LighthouseFriends",
       "url": "https://lighthousefriends.com/Instructions%20for%20lightkeepers.pdf"
     },
@@ -58,7 +58,7 @@
       "url": "https://www.nps.gov/articles/000/history-of-lighthouses.htm"
     },
     {
-      "type": "archive",
+      "type": "primary",
       "citation": "United States Light-House Board, Uniform Regulations (approved 13 March 1893), US Coast Guard Historian's Office",
       "url": "https://media.defense.gov/2020/Sep/11/2002495503/-1/-1/0/1893-USLHS-UNIFORMREGS.PDF"
     }

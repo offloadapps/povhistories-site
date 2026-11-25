@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).parent
-ORDER = [("first-person", "First-person accounts"), ("academic", "Scholarship"), ("archive", "Museums and archives")]
+ORDER = [("first-person", "First-person accounts"), ("primary", "Primary sources"), ("academic", "Scholarship"), ("archive", "Museums and archives")]
 HEAD = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
         '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
         '<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">')
@@ -69,7 +69,7 @@ def main():
     rows = "".join(f'<li><span class="code">{esc(e["id"])}</span><a href="{e["id"].lower()}/">{esc(e["title"])}</a><span class="where">{esc(e["era"])}, {esc(e["place"])}</span></li>' for e in eps)
     body = f"""<h1>Sources for every episode</h1>
 <p class="lede">{ABOUT}</p>
-<p>We work from first-person accounts first, then scholarship, then museum and archive collections. Where a film simplifies something or the evidence is thin, its page says so.</p>
+<p>We work from first-person accounts and other primary sources first, then scholarship, then museum and archive collections. Where a film simplifies something or the evidence is thin, its page says so.</p>
 <h2>Episodes</h2>
 {f'<ul class="toc">{rows}</ul>' if rows else '<p class="empty">The first episode is published on 4 January 2027.</p>'}"""
     (ROOT / "index.html").write_text(page("POV Histories · Sources and notes", ABOUT, body, 0))

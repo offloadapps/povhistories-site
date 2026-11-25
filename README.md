@@ -6,7 +6,7 @@ Public source notes for POV Histories, a daily short film about ordinary days of
 
 1. Copy `data/episodes/ep000.json` to `data/episodes/ep014.json` and fill it from the research dossier. Remove `"example": true`.
 2. `series` is `Forgotten Jobs` or `An Ordinary Day`.
-3. Each source has a `type`: `first-person`, `academic` or `archive`. Pages list them in that order.
+3. Each source has a `type`: `first-person`, `primary`, `academic` or `archive`. Pages list them in that order.
 4. Add later fixes to `corrections` as `{"date": "2027-01-10", "text": "..."}`.
 5. Run `python3 build.py` and commit the generated `index.html` and `ep014/` folder.
 

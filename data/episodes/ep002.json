@@ -1,0 +1,58 @@
+{
+  "id": "EP002",
+  "series": "Forgotten Jobs",
+  "title": "The Laundry That Ran on Urine",
+  "era": "79 CE",
+  "place": "Pompeii, Roman Italy",
+  "post_date": "2027-01-05",
+  "summary": "In a Pompeii fullery, you tread wool in tubs of stale urine, then rinse, brush, bleach it over sulphur and press it. Most fullers here were enslaved.",
+  "sources": [
+    {
+      "type": "archive",
+      "citation": "Archaeological Park of Pompeii, \"Fullery of Stephanus\" (updated 2023)",
+      "url": "https://pompeiisites.org/en/archaeological-site/fullery-of-stephanus/"
+    },
+    {
+      "type": "academic",
+      "citation": "Kaira Shlipak, \"Reconstructing Textile Cleaning in the Ancient Roman Fullonicae\", EXARC Journal 2026/2",
+      "url": "https://exarc.net/issue-2026-2/rev/reconstructing-textile-cleaning-ancient-roman-fullonicae"
+    },
+    {
+      "type": "primary",
+      "citation": "Suetonius, Life of Vespasian 23, trans. J. C. Rolfe (Loeb, 1914), LacusCurtius",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Vespasian*.html"
+    },
+    {
+      "type": "primary",
+      "citation": "Pliny the Elder, Natural History 28.18 (Bostock and Riley translation), Perseus",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=28:chapter=18"
+    },
+    {
+      "type": "primary",
+      "citation": "Pliny the Elder, Natural History 35.57, Perseus",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=35:chapter=57"
+    },
+    {
+      "type": "academic",
+      "citation": "W. Smith (ed.), Dictionary of Greek and Roman Antiquities (1875), \"Fullo\", LacusCurtius",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/secondary/SMIGRA*/Fullo.html"
+    },
+    {
+      "type": "academic",
+      "citation": "S. R. Joshel, review of M. Flohr, The World of the Fullo (OUP 2013), BMCR 2014.04.17",
+      "url": "https://bmcr.brynmawr.edu/2014/2014.04.17/"
+    },
+    {
+      "type": "academic",
+      "citation": "Oxford Roman Economy Project, \"The World of the Fullo\"",
+      "url": "https://oxrep.web.ox.ac.uk/osre-fullo"
+    },
+    {
+      "type": "academic",
+      "citation": "Pilli E., Vai S. et al., \"Ancient DNA challenges prevailing interpretations of the Pompeii plaster casts\", Current Biology 34(22):5307-5318.e7, 2024, doi:10.1016/j.cub.2024.10.007",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11627482/"
+    }
+  ],
+  "corrections": [],
+  "simplified": "The worker is a composite. Recipes varied: urine, nitrum, potash and fuller's earth were all used, and no step-by-step manual survives. The order of washing, rinsing, drying, brushing, sulphur, earth and pressing follows Smith and Pliny and is the standard scholarly reading, not a recorded routine."
+}
