@@ -1,0 +1,83 @@
+{
+  "id": "EP003",
+  "series": "An Ordinary Day",
+  "title": "Paid in Grain",
+  "era": "c. 1150 BCE",
+  "place": "Deir el-Medina, Thebes, New Kingdom Egypt",
+  "post_date": "2027-01-06",
+  "summary": "In the village of the royal tomb builders at Thebes, it is your turn to stay home and take in the deliveries: firewood, water and the month's pay in grain. Then you write it down on a flake of limestone.",
+  "sources": [
+    {
+      "type": "academic",
+      "citation": "A. G. McDowell, \"Daily Life in Ancient Egypt\", Scientific American (1996), PDF copy",
+      "url": "https://mqtrinh.github.io/other/egyptian/deir-el-medina/mcdowell_daily-life-in-ancient-egypt.pdf"
+    },
+    {
+      "type": "primary",
+      "citation": "Museo Egizio, Turin, \"Highlights: Turin Strike Papyrus\" (Papyrus Cat. 1880)",
+      "url": "https://collezionepapiri.museoegizio.it/en-GB/section/Papyrus-Collection/History-and-content/Highlights-Turin-Strike-Papyrus/"
+    },
+    {
+      "type": "academic",
+      "citation": "H. Wilson, \"Bread, beer and economics, Part 1\", The Past (2026)",
+      "url": "https://the-past.com/feature/hilary-wilson-on-bread-beer-and-economics-part-1/"
+    },
+    {
+      "type": "academic",
+      "citation": "J. J. Mark, \"Deir el-Medina\", World History Encyclopedia",
+      "url": "https://www.worldhistory.org/Deir_el-Medina/"
+    },
+    {
+      "type": "academic",
+      "citation": "A. Koltsida, \"A study of the so-called elevated bed in Deir el-Medina houses\", PDF copy",
+      "url": "https://mqtrinh.github.io/other/egyptian/deir-el-medina/koltsida_study-of-the-so-called-elevated-bed-in-deir-el-medina-houses.pdf"
+    },
+    {
+      "type": "first-person",
+      "citation": "Things That Talk (Leiden University), \"A workmen's community\", \"Firewood\" and \"Ptahmose the woodcutter\" (hieratic ostracon)",
+      "url": "https://thingsthattalk.net/en/zone/ancient-writing/t/ttt:Tjsfwr/m/firewood"
+    },
+    {
+      "type": "archive",
+      "citation": "Global Egyptian Museum, glossary: \"Ostraca\"",
+      "url": "https://globalegyptianmuseum.org/glossary.aspx?id=285"
+    },
+    {
+      "type": "archive",
+      "citation": "Australian Museum, \"Artisans of ancient Egypt\"",
+      "url": "https://australian.museum/learn/cultures/international-collection/ancient-egyptian/artisans-of-ancient-egypt/"
+    },
+    {
+      "type": "academic",
+      "citation": "\"Maids at the grindstone: A comparative study of New Kingdom Egypt grain grinders\", Journal of Lithic Studies",
+      "url": "https://journals.ed.ac.uk/lithicstudies/article/view/1462"
+    },
+    {
+      "type": "academic",
+      "citation": "A. Morez Jacobs et al., \"Whole-genome ancestry of an Old Kingdom Egyptian\", Nature (2025), doi:10.1038/s41586-025-09195-5",
+      "url": "https://orca.cardiff.ac.uk/id/eprint/179503/1/s41586-025-09195-5.pdf"
+    },
+    {
+      "type": "academic",
+      "citation": "National Geographic, \"The first ancient Egyptian genome\" (2025)",
+      "url": "https://www.nationalgeographic.com/history/article/ancient-egyptian-genome"
+    },
+    {
+      "type": "academic",
+      "citation": "Rawi Magazine, \"Slow Fashion\" (ancient Egyptian linen clothing)",
+      "url": "https://rawi-publishing.com/articles/slow_fashion"
+    },
+    {
+      "type": "academic",
+      "citation": "Fabrics of Dependency (BCDSS, University of Bonn), Deir el-Medina textiles",
+      "url": "https://fabrics-of-dependency.uni-bonn.de/en/?p=503"
+    },
+    {
+      "type": "archive",
+      "citation": "LACMA, \"Ostracon detailing the delivery of groceries to Deir el Medina\" (limestone, 1200-1150 BCE), Google Arts & Culture",
+      "url": "https://artsandculture.google.com/asset/ostracon-detailing-the-delivery-of-groceries-to-deir-el-medina/RQHmU_PRcY-6Tg"
+    }
+  ],
+  "corrections": [],
+  "simplified": "The workman is a composite. The duty of staying home to receive deliveries rotated through the crew; the film puts the firewood, water and the month's grain on the same morning, which compresses deliveries that came on their own schedules. Wage figures varied with rank and period; \"about four sacks of emmer and one and a half of barley\" is the commonly cited workman's ration. The kitchen layout and grinding stone follow the village's excavated houses in general, not one house."
+}
